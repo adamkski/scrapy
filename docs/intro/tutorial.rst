@@ -517,7 +517,7 @@ Storing the scraped data
 The simplest way to store the scraped data is by using :ref:`Feed exports
 <topics-feed-exports>`, with the following command::
 
-    scrapy crawl quotes -O quotes.json
+    scrapy crawl quotes -o quotes.json
 
 That will generate a ``quotes.json`` file containing all scraped items,
 serialized in `JSON`_.
